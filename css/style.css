@@ -92,3 +92,15 @@ main article + article {
 .side {
   flex: 1;
 }
+
+h2 {
+  font-size: 22px;
+  font-family: Avenir Next;
+  font-weight: normal;
+  letter-spacing: 1.83px;
+  text-align: center;
+}
+
+h2 span {
+  background: linear-gradient(transparent 60%, #F29364 60%);
+}
