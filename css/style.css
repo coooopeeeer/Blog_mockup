@@ -53,7 +53,40 @@ header .band {
 }
 
 main {
+  padding-right: 40px;
   flex: 2;
+}
+
+main article {
+  font-size: 12px;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+}
+
+main article img {
+  margin-right: 20px;
+}
+
+main article .date {
+  margin-bottom: 10px;
+  display: block;
+}
+
+main article .category {
+  display: block;
+}
+
+main article .category a {
+  color: #F29364;
+}
+
+main article h1 {
+  margin: 20px 0;
+}
+
+main article + article {
+  margin-top: 25px;
 }
 
 .side {

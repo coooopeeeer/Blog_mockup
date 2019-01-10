@@ -56,7 +56,33 @@ header {
 }
 
 main {
+  padding-right: 40px;
   flex: 2;
+  article {
+    font-size: 12px;
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    img {
+      margin-right: 20px;
+    }
+    .date {
+      margin-bottom: 10px;
+      display: block;
+    }
+    .category {
+      display: block;
+      a {
+        color: #F29364;
+      }
+    }
+    h1 {
+      margin: 20px 0;
+    }
+  }
+  article + article {
+    margin-top: 25px;
+  }
 }
 
 .side {
