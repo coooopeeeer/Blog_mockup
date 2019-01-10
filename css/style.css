@@ -98,10 +98,23 @@ h2 {
   font-family: Avenir Next;
   font-weight: normal;
   letter-spacing: 1.83px;
+  margin-bottom: 25px;
   text-align: center;
 }
 
 h2 span {
   padding: 0 5px;
   background: linear-gradient(transparent 60%, #F29364 60%);
+}
+
+.profile img {
+  margin-bottom: 25px;
+}
+
+.profile p {
+  line-height: 1.7;
+}
+
+.profile p a {
+  color: #F29364;
 }
