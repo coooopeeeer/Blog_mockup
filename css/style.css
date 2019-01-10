@@ -28,3 +28,22 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
+header {
+  text-align: center;
+}
+
+header .wrapper {
+  padding: 60px 0;
+}
+
+header .band {
+  color: #fff;
+  padding: 20px 0;
+  background: #F29364;
+}
+
+#container {
+  padding: 100px 0;
+  background: #f0f0f0;
+}
