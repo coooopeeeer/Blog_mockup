@@ -102,5 +102,6 @@ h2 {
 }
 
 h2 span {
+  padding: 0 5px;
   background: linear-gradient(transparent 60%, #F29364 60%);
 }
