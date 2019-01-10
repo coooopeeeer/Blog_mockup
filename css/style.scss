@@ -50,4 +50,15 @@ header {
 #container {
   padding: 100px 0;
   background: #f0f0f0;
+  .content {
+    display: flex;
+  }
+}
+
+main {
+  flex: 2;
+}
+
+.side {
+  flex: 1;
 }
